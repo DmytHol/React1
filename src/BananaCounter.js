@@ -47,17 +47,17 @@ const BananaCounter = () => {
       <h1>Welcome to Banana Counter App</h1>
       <h2>Product: {product.name}</h2>
       <h3>Quantity: {product.quantity}</h3>
-      <div className="counter-buttons">
-        <button onClick={decreaseQuantity}>-</button>
+      <div >
+        <button className="counter-buttons" onClick={increaseQuantity}>+</button>
         <input
           type="number"
           value={product.quantity}
           onChange={handleQuantityChange}
         />
-        <button onClick={increaseQuantity}>+</button>
+        <button className="counter-buttons" onClick={decreaseQuantity}>-</button>
       </div>
       {product.quantity === 0 && (
-        <button onClick={sendEmail}>Send Email</button>
+        <button className="counter-buttons" onClick={sendEmail}>Send Email</button>
       )}
       {product.quantity < 0 && (
         <p className="error-message">Error: Quantity cannot be negative</p>

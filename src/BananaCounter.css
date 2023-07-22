@@ -1,4 +1,5 @@
 .main-content {
+  height: 600px;
   background-image: url('image2.jpg');
   background-position: center;
   background-size: cover;
@@ -35,21 +36,17 @@ input {
   border-radius: 4px;
 }
 
-button {
-  height: 60 px;
-  
+.counter-buttons {  
   padding: 10px 20px;
-  margin-left: 40px;
-  margin-top: 10px;
-  margin-bottom: 10px;
-  background-color: #505d6a;
+  margin: 10px 0px 10px 150px;
+  background-color: gray;
   color: #fff;
   border: none;
   outline:none;
   cursor: pointer;
   transition: .5s;
-  border-radius: 20px;
-  box-shadow: 0 6px 0 gray;
+  border-radius: 10px;
+  box-shadow: 0 6px 0 #505d6a;
 }
 button:active{
   box-shadow: none;

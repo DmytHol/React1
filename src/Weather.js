@@ -69,7 +69,7 @@ const Weather = () => {
           onChange={(e) => setQuery(e.target.value)}
           onKeyPress={handleKeyPress}
         />
-        <button onClick={handleSearch}>Search</button>
+        <button className="weather-button" onClick={handleSearch}>Search</button>
       </div>
       {weatherData ? (
         <div className="weather-content">

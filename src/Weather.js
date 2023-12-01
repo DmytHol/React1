@@ -1,3 +1,9 @@
+/**
+ * Weather component that displays current weather information based on location search.
+ *
+ * @component
+ * @returns {JSX.Element} Weather component
+ */
 import React, { useEffect, useState } from 'react';
 import axios from 'axios';
 import './Weather.css';

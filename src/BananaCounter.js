@@ -1,3 +1,7 @@
+/**
+ * Represents a Banana Counter component.
+ * @component
+ */
 import React, { useState } from 'react';
 import './BananaCounter.css';
 

@@ -22,26 +22,23 @@ These instructions will help you get a copy of the project up and running on you
 
 1. Clone the repository:
 
-shell
+shell>
     git clone https://github.com/DmytHol/React1.git
 
 2. Navigate to the project directory:
 
-shell
-Copy code
+shell>
     cd [project directory]
 
 3. Install project dependencies:
 
-shell
-Copy code
+shell>
 npm install
 
 4. Running the Application
 Start the development server:
 
-shell
-Copy code
+shell>
 npm start
 
 5. Open your web browser and navigate to http://localhost:3000 to view the application.
